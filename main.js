@@ -34,6 +34,24 @@
     );
   }
 
+  function openModal(id) {
+    document.getElementById(id).style.display = 'block';
+  }
+
+  function closeModal(id) {
+    document.getElementById(id).style.display = 'none';
+  }
+
+  // Menutup jika klik di luar modal
+  window.onclick = function(event) {
+    const modals = document.querySelectorAll('.modal');
+    modals.forEach(function(modal) {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  }
+
   function checkScrollAnimations() {
     document.querySelectorAll('.scroll-left').forEach((el) => {
       if (isInViewport(el)) {

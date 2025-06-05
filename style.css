@@ -17,7 +17,7 @@ html {
 /* page 1 start */
 .Page_slide1{
     background-color: var(--varcolor1);
-    min-height: 50vh;
+    min-height: 100vh;
 }
 
 .containerPage1{
@@ -120,7 +120,7 @@ html {
 
 .page_slide2{
     background-color: var(--varcolor4);
-    min-height: 50vh;
+    min-height: 100vh;
 }
 
 .containerpage2{
@@ -383,10 +383,8 @@ html {
 
 /* Untuk HP */
 @media screen and (max-width: 768px) {
-    .logoWedsy {
-        /* flex-direction: column; */
-        /* align-items: center;
-        text-align: center; */
+    .Page_slide1{
+    min-height: 50vh;
     }
     .foto-prewed {
         display: none;
@@ -424,6 +422,10 @@ html {
 
     .imgFoto img {
         border-radius: 20px;
+    }
+
+    .page_slide2{
+    min-height: 50vh;
     }
 
     .heroPage2 .iniP {

@@ -385,6 +385,9 @@
         /* align-items: center;
         text-align: center; */
     }
+    .foto-prewed {
+        display: none;
+    }
 
     .logoWedsy p{
       margin-left: 10px;

@@ -318,6 +318,9 @@
   transform: translateY(0);
 }
 
+/* RESPONSIVE STYLE */
+
+/* Untuk tablet */
 @media screen and (max-width: 992px) {
     .containerPage1 {
         margin-left: 30px;
@@ -436,4 +439,3 @@
 
   
 }
-

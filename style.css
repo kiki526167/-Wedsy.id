@@ -317,3 +317,123 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+@media screen and (max-width: 992px) {
+    .containerPage1 {
+        margin-left: 30px;
+        padding-right: 30px;
+    }
+    .foto-prewed {
+        display: none;
+    }
+
+    .heroSect1 {
+        margin-top: 150px;
+    }
+
+    .containerpage2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding: 50px 30px;
+    }
+
+    .imgFoto img {
+        width: 100%;
+        height: auto;
+        border-radius: 30px;
+    }
+
+    .heroPage2 .iniP {
+        font-size: 40px;
+    }
+
+    .heroPage2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .section-karya h2 {
+        font-size: 36px;
+    }
+
+    .karya-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-image img {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 30px;
+    }
+}
+
+/* Untuk HP */
+@media screen and (max-width: 576px) {
+    .logoWedsy {
+        /* flex-direction: column; */
+        /* align-items: center;
+        text-align: center; */
+    }
+
+    .logoWedsy p{
+      margin-left: 10px;
+      margin-top: 7px;
+    }
+
+    .logoWedsy img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logoWedsy p {
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .heroSect1 .init {
+        font-size: 28px;
+        /* text-align: center; */
+    }
+
+    .heroSect1 .init2 {
+        font-size: 16px;
+        /* text-align: center; */
+    }
+
+    .link-button {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .imgFoto img {
+        border-radius: 20px;
+    }
+
+    .heroPage2 .iniP {
+        font-size: 32px;
+        margin-top: -120px;
+    }
+
+    .heroPage2 .iniP2{
+      margin-top: 30px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .contact-image img {
+        max-width: 100%;
+    }
+
+  
+}
+

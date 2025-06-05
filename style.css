@@ -432,6 +432,12 @@ html {
     .foto-prewed {
         display: none;
     }
+    .Page_slide1{
+    min-height: 50vh;
+    }
+    .Page_slide2{
+    min-height: 50vh;
+    }
 
     .logoWedsy p{
       margin-left: 10px;

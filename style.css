@@ -17,7 +17,7 @@ html {
 /* page 1 start */
 .Page_slide1{
     background-color: var(--varcolor1);
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 .containerPage1{
